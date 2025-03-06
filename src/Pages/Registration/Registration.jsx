@@ -48,7 +48,7 @@ const Registration = () => {
 
                     <p className='mt-5 text-center'>By clicking Agree & Join or Continue, you agree to the LinkedIn <Link to={'https://www.linkedin.com/legal/user-agreement?trk=registration-frontend_join-form-user-agreement'} className='text-[#0a66c2] font-bold'>User Agreement</Link>, <Link to={'https://www.linkedin.com/legal/privacy-policy?trk=registration-frontend_join-form-privacy-policy'} className='text-[#0a66c2] font-bold'>Privacy Policy</Link>, and <Link to={'https://www.linkedin.com/legal/cookie-policy?trk=registration-frontend_join-form-cookie-policy'} className='text-[#0a66c2] font-bold'>Cookie Policy</Link>.</p>
 
-                    <input type="submit" value={'Agree & Join'} className='bg-[#0a66c2] hover:bg-[#004182] text-white font-bold w-full mt-10 rounded-full py-3 px-3 text-lg' />
+                    <input type="submit" value={'Agree & Join'} className='bg-[#0a66c2] hover:bg-[#004182] text-white font-bold w-full mt-10 rounded-full py-3 px-3 text-lg cursor-pointer' />
                 </form>
 
                 <div>
@@ -57,7 +57,7 @@ const Registration = () => {
                         <span>Signup With Google</span>
                         <span className='mt-1'><FcGoogle /> </span>
                     </button>
-                    <p className='mt-5 text-center text-xl'>Already on LinkedIn? <Link to={'/sign-in'} className='text-[#0a66c2] font-bold'>Sign in</Link></p>
+                    <p className='mt-5 text-center text-xl'>Already on LinkedIn? <Link to={'/login'} className='text-[#0a66c2] font-bold'>Sign in</Link></p>
                 </div>
             </div>
         </div>

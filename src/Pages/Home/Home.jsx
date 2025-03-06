@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import HomeSidebarLeft from '../../Layouts/Sidebars/HomeSidebarLeft/HomeSidebarLeft'
 import HomeSidebarRight from '../../Layouts/Sidebars/HomeSidebarRight/HomeSidebarRight'
 import NewsFeed from '../../Components/NewsFeed/NewsFeed'
-import PostCard from '../../Components/NewsFeed/PostCard'
+import PostCard from '../../Components/NewsFeed/UploadPost'
 import MessageInbox from '../../Components/MessageInbox/MessageInbox'
 
 const Home = () => {
@@ -15,12 +15,6 @@ const Home = () => {
           <HomeSidebarLeft />
         </div>
         <div className=''>
-          <PostCard />
-          <PostCard />
-          <PostCard />
-          <PostCard />
-          <PostCard />
-          <PostCard />
           <PostCard />
           <NewsFeed />
         </div>
