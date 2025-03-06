@@ -5,14 +5,14 @@ import articleIcon from '../../assets/images/icons/content-writing.png'
 
 const PostCard = () => {
     return (
-        <div className='py-5 px-5 border rounded-lg bg-white'>
+        <div className='py-5 px-5 border border-gray-300 rounded-lg bg-white'>
             <div className='flex items-center gap-3 flex-1'>
                 <div className="avatar">
                     <div className="w-16 rounded-full">
                         <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
                     </div>
                 </div>
-                <div className='border rounded-full py-3 px-2 flex-2'>
+                <div className='border border-gray-300 rounded-full py-3 px-2 flex-2'>
                     <h3>Start a post</h3>
                 </div>
             </div>

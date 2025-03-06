@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeSidebarLeft = () => {
   return (
-    <div>
+    <div className=''>
       <h1>Sidebar Left</h1>
     </div>
   )
