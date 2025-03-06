@@ -9,11 +9,12 @@ import MyNetworks from './Pages/MyNetworks/MyNetworks.jsx'
 import Jobs from './Pages/Jobs/Jobs.jsx'
 import Messages from './Pages/Messages/Messages.jsx'
 import Notifications from './Pages/Notifications/Notifications.jsx'
+import Registration from './Pages/Registration/Registration.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <MainLayout />,
+    element: <Registration />,
     children: [
       {
         path: '/feed',

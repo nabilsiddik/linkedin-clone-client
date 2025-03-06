@@ -6,8 +6,8 @@ import MainMenu from '../../Components/MainMenu';
 const Header = () => {
 
     return (
-        <header className='bg-white'>
-            <div className="container flex items-center justify-between">
+        <header className='bg-white fixed z-[99999] w-full block border-b border-gray-300'>
+            <div className="container flex items-center justify-between ">
                 {/* Logo and Search */}
                 <div className="flex items-center gap-5">
                     <div className="logo">
