@@ -20,3 +20,12 @@
     outline: none;
     border: none;
 }
+
+#main-menu .active::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 100%;
+    background: #000;
+}

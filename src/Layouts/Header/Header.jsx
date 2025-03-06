@@ -1,12 +1,14 @@
 import React from 'react'
 import Logo from '../../Components/Logo'
 import { FaSearch } from "react-icons/fa";
-
+import MainMenu from '../../Components/MainMenu';
 
 const Header = () => {
+
     return (
-        <header className='bg-white py-3'>
-            <div className="container">
+        <header className='bg-white'>
+            <div className="container flex items-center justify-between">
+                {/* Logo and Search */}
                 <div className="flex items-center gap-5">
                     <div className="logo">
                         <Logo />
@@ -17,6 +19,11 @@ const Header = () => {
                         </div>
                         <input className=' bg-transparent border-none focus:outline-none' type="search" placeholder='Search...' />
                     </div>
+                </div>
+
+                {/* menu */}
+                <div>
+                    <MainMenu/>
                 </div>
             </div>
         </header>

@@ -4,8 +4,11 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home/Home.jsx'
-import Profile from './Pages/Profile/Profile.jsx'
 import MainLayout from './Layouts/MainLayout/MainLayout.jsx'
+import MyNetworks from './Pages/MyNetworks/MyNetworks.jsx'
+import Jobs from './Pages/Jobs/Jobs.jsx'
+import Messages from './Pages/Messages/Messages.jsx'
+import Notifications from './Pages/Notifications/Notifications.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,13 +16,25 @@ const router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       {
-        index: true,
+        path: '/feed',
         element: <Home />
       },
       {
-        path: '/profile',
-        element: <Profile />
-      }
+        path: '/my-network',
+        element: <MyNetworks />
+      },
+      {
+        path: '/jobs',
+        element: <Jobs />
+      },
+      {
+        path: '/messages',
+        element: <Messages />
+      },
+      {
+        path: '/notifications',
+        element: <Notifications />
+      },
     ]
   }
 ])
