@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+}
+
+#header-search{
+    border: 2px solid #f2f2f2;
+}
+#header-search:focus-within{
+    border: 2px solid black;
+}
+#header-search input[type = 'search']{
+    padding: 5px 10px;
+}
+#header-search input[type = 'search']:focus{
+    outline: none;
+    border: none;
+}
